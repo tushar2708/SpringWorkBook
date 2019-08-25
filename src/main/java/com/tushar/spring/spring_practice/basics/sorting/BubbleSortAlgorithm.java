@@ -1,4 +1,4 @@
-package com.tushar.spring_practice.basics.sorting;
+package com.tushar.spring.spring_practice.basics.sorting;
 
 import org.springframework.stereotype.Component;
 

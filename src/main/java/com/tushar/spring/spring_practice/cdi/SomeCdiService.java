@@ -1,12 +1,13 @@
-package com.tushar.spring_practice.cdi;
+package com.tushar.spring.spring_practice.cdi;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
-@Component
+import javax.inject.Inject;
+import javax.inject.Named;
+
+@Named
 public class SomeCdiService {
 
-    @Autowired
+    @Inject
     SomeCdiDao someCdiDao;
 
     public SomeCdiDao getsomeCdiDao() {

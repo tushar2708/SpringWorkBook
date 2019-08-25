@@ -1,8 +1,6 @@
-package com.tushar.spring_practice;
+package com.tushar.spring.spring_practice;
 
-import com.tushar.itHasComponents.ComponentDAO;
-import com.tushar.spring_practice.scopes.dummyDao.PersonDAO;
-import com.tushar.spring_practice.scopes.dummyDao.PersonDAOPrototype;
+import com.tushar.spring.itHasComponents.ComponentDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -11,7 +9,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.tushar.itHasComponents")
+@ComponentScan("com.tushar.spring.itHasComponents")
 public class ScopesApplication {
 
     private static Logger LOGGER = LoggerFactory.getLogger(ScopesApplication.class);

@@ -1,4 +1,4 @@
-package com.tushar.spring_practice.scopes.connections;
+package com.tushar.spring.spring_practice.scopes;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;

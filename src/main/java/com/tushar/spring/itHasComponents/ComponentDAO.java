@@ -1,4 +1,4 @@
-package com.tushar.itHasComponents;
+package com.tushar.spring.itHasComponents;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

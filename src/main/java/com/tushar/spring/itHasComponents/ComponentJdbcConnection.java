@@ -1,4 +1,4 @@
-package com.tushar.spring_practice.scopes.connections;
+package com.tushar.spring.itHasComponents;
 
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
-public class JdbcConnection {
+public class ComponentJdbcConnection {
 
-    public JdbcConnection(){
-        System.out.println("JdbcConnection");
+    public ComponentJdbcConnection(){
+        System.out.println("ComponentJdbcConnection");
     }
 
 }

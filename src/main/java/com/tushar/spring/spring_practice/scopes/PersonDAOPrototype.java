@@ -1,6 +1,5 @@
-package com.tushar.spring_practice.scopes.dummyDao;
+package com.tushar.spring.spring_practice.scopes;
 
-import com.tushar.spring_practice.scopes.connections.JdbcConnection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;

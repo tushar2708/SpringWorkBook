@@ -1,4 +1,4 @@
-package com.tushar.spring_practice;
+package com.tushar.spring.spring_practice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

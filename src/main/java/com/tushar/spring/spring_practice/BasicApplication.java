@@ -1,6 +1,6 @@
-package com.tushar.spring_practice;
+package com.tushar.spring.spring_practice;
 
-import com.tushar.spring_practice.basics.searching.BinarySearchImpl;
+import com.tushar.spring.spring_practice.basics.searching.BinarySearchImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;

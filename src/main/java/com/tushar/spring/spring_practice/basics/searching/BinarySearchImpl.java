@@ -1,6 +1,6 @@
-package com.tushar.spring_practice.basics.searching;
+package com.tushar.spring.spring_practice.basics.searching;
 
-import com.tushar.spring_practice.basics.sorting.SortAlgorithm;
+import com.tushar.spring.spring_practice.basics.sorting.SortAlgorithm;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
